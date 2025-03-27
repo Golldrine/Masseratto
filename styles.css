@@ -13,13 +13,14 @@ body {
 /* Outros estilos mantidos */
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 30px;
     border-radius: 15px;
-    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    backdrop-filter: blur(10px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    width: 90%;
-    max-width: 400px;
+    width: 80%; /* Reduzi de 90% para 80% */
+    max-width: 350px; /* Reduzi de 400px para 350px */
+    margin: 20px; /* Adicionei margem para evitar contato com as bordas */
 }
 
 .profile {
